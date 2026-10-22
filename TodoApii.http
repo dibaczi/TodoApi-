@@ -19,3 +19,14 @@ Content-Type: application/json
 GET {{TodoApii_HostAddress}}/api/todoitems/1
 Accept: application/json
 ###
+
+PUT {{TodoApii_HostAddress}}/api/todoitems/1
+Content-Type: application/json
+
+{
+   "id": 1,
+  "name": "feed fish",
+  "isComplete": false
+}
+
+###
