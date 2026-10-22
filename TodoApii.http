@@ -1,0 +1,6 @@
+@TodoApii_HostAddress = http://localhost:5048
+
+GET {{TodoApii_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
